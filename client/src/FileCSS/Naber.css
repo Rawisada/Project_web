@@ -1,0 +1,359 @@
+
+.wrapper{
+    width: 100%;
+    height: 50px;
+    
+}
+
+.nav-link{
+    color: rgb(46, 82, 46);
+    border-radius: 20px;
+    margin: 2px;
+    font-size: 15px;
+    
+}
+.nav-link:hover{
+    background-color:  rgb(18, 30, 18);
+    border-radius: 20px;
+    color: #ffffff;
+}
+#profile{
+    padding: 0px;
+    
+    
+}
+.myprofile{
+    width: 35px;
+    border-radius: 30px;
+}
+#myfunction{
+    position: absolute;
+    z-index: 1;
+    /* top:65px;
+    right: 70px; */
+    background-color: rgb(77, 100, 75);
+    /* width: 25%; */
+    height: 370px;
+    border-radius: 50px 0px 50px 30px;
+    padding: 20px;
+    display: none;
+}
+.myprofile2{
+    width: 70px;
+    margin-left: 38%;
+    border-radius: 35px;
+}
+.datauser{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.detailfunction{
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    margin-bottom:10px ;
+    
+}
+.word1{
+    font-size: 20px;
+}
+.logout{
+    background-color: #ffffff;
+    color: rgb(23, 32, 23);
+}
+.logoAbout{
+    width: 30%;
+    position: relative;
+    
+}
+
+@media(min-width:300px){
+    .nav-link{
+        font-size: 12px;
+        
+    }
+    #myfunction{
+        top:118px;
+        right: 65px;
+        width: 70%;
+
+    }
+    #text-nameweb{
+        position:absolute;
+        left:50px;
+        top:25px;
+        color: #ffffff;
+        font-size: 20px;
+    }#text-contact{ 
+        position: absolute;
+        left:350px;
+        top: 10px;
+        color: #ffffff;
+        font-size: 12px;
+    }
+    #contact-detail{
+        position: absolute;
+        left:300px;
+        top:35px;
+        color: #ffffff;
+        font-size: 10px;
+    }
+    #Line_2{
+        position: absolute;
+        left:250px;
+        top:15px;
+        border-left: 4px solid rgb(255, 255, 255);
+        height: 50px;
+        border-radius: 10px;
+    }
+    .text-about{
+        font-size: 14px;
+        padding: 20px;
+        text-align: center;
+        background-color: #ffffffd6;
+    }
+    .about{
+        position: relative;
+        top:0px;
+        left: 25%;
+        width: 100%;
+        padding-top: 20px;
+        background-color: rgba(255, 255, 255, 0);
+        height: 500px;
+        border-radius: 30px 0px 0px 30px;
+    }
+    #wel {
+        position: relative;
+        color: rgb(0, 0, 0);
+        padding: 120px 0px; 
+        text-align: center;
+        font-size: 25px;
+        padding-left: 5%;
+        background-color: #ffffffd3;
+        border-radius: 20px;
+        
+    }
+    #pop{
+        position: relative;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 30px;
+        left: 5%;
+        
+    }
+    
+}
+@media(min-width:600px){
+    .nav-link{
+        font-size: 12px;
+        
+    }
+    #myfunction{
+        top:118px;
+        right: 100px;
+        width: 50%;
+
+    }
+    #text-nameweb{
+        position:absolute;
+        left:100px;
+        top:25px;
+        color: #ffffff;
+        font-size: 25px;
+    }#text-contact{ 
+        position: absolute;
+        left:550px;
+        top: 10px;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    #contact-detail{
+        position: absolute;
+        left:500px;
+        top:35px;
+        color: #ffffff;
+        font-size: 12px;
+    }
+    #Line_2{
+        position: absolute;
+        left:400px;
+        top:15px;
+        border-left: 4px solid rgb(255, 255, 255);
+        height: 50px;
+        border-radius: 10px;
+    }
+    .text-about{
+        font-size: 14px;
+        padding: 20px;
+        text-align: center;
+        background-color: #ffffffd6;
+    }
+    #wel {
+        position: relative;
+        color: rgb(0, 0, 0);
+        padding: 120px 0px; 
+        text-align: center;
+        font-size: 30px;
+        padding-left: 5%;
+        background-color: #ffffffd3;
+        border-radius: 20px;
+        
+    }
+    #pop{
+        position: relative;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 30px;
+        left: 5%;
+        
+    }
+
+    
+}
+@media(min-width:900px){
+    .nav-link{
+        font-size: 12px;
+        
+    }
+    #myfunction{
+        top:67px;
+        right: 130px;
+        width: 30%;
+
+    }
+    #text-nameweb{
+        position:absolute;
+        left:200px;
+        top:25px;
+        color: #ffffff;
+        font-size: 25px;
+    }#text-contact{ 
+        position: absolute;
+        left:750px;
+        top: 10px;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    #contact-detail{
+        position: absolute;
+        left:700px;
+        top:35px;
+        color: #ffffff;
+        font-size: 12px;
+    }
+    #Line_2{
+        position: absolute;
+        left:600px;
+        top:15px;
+        border-left: 4px solid rgb(255, 255, 255);
+        height: 50px;
+        border-radius: 10px;
+    }
+    .text-about{
+        font-size: 18px;
+        padding: 20px;
+        text-align: center;
+    }
+    #wel {
+        position: relative;
+        color: rgb(0, 0, 0);
+        padding-top: 120px;
+        text-align: center;
+        font-size: 45px;
+        padding-left: 40%;
+        background-color: #ffffff00;
+        
+    }
+    #pop{
+        position: relative;
+       
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 30px;
+        left: 20%;
+        
+    }
+    
+}
+@media(min-width:1200px){
+    .nav-link{
+        font-size: 15px;
+        
+    }
+    #myfunction{
+        top:65px;
+        right: 70px;
+        width: 25%;
+
+    }
+    #text-nameweb{
+        position:absolute;
+        left:300px;
+        top:25px;
+        color: #ffffff;
+        font-size: 25px;
+    }
+    #text-contact{ 
+        position: absolute;
+        left:950px;
+        top: 10px;
+        color: #ffffff;
+        font-size: 16px;
+    
+        
+    }
+    #contact-detail{
+        position: absolute;
+        left:900px;
+        top:35px;
+        color: #ffffff;
+        font-size: 12px;
+    }
+    #Line_2{
+        position: absolute;
+        left:800px;
+        top:15px;
+        border-left: 4px solid rgb(255, 255, 255);
+        height: 50px;
+        border-radius: 10px;
+    }
+    .text-about{
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        background-color: #ffffff00;
+    }
+    .about{
+        position: relative;
+        top:0px;
+        left: 50%;
+        width: 40%;
+        padding-top: 20px;
+        background-color: rgba(255, 255, 255, 0);
+        height: 500px;
+        border-radius: 30px 0px 0px 30px;
+    }
+    #wel {
+        position: relative;
+        color: rgb(0, 0, 0);
+        padding-top: 120px;
+        text-align: center;
+        font-size: 45px;
+        padding-left: 40%;
+        background-color: #ffffff00;
+        
+    }
+    #pop{
+        position: relative;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 30px;
+        left: 20%;
+        
+    }
+    
+    
+}

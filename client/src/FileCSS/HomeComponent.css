@@ -1,0 +1,99 @@
+body{
+    font-family: poppins;
+    background-image: url(https://i.pinimg.com/564x/49/0b/ab/490babf077685c199f278cdd9c7c4d35.jpg);
+    background-size: cover;  
+    margin: 0;
+    padding: 0;
+    
+}
+.bigblue {
+    color: DodgerBlue;
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+}
+/* #wel {
+    position: relative;
+    color: rgb(0, 0, 0);
+    padding-top: 120px;
+    text-align: center;
+    font-size: 45px;
+    padding-left: 40%;
+    
+} */
+section{
+    margin-bottom: 100px;
+}
+/* #text-nameweb{
+    position:absolute;
+    left:300px;
+    top:25px;
+    color: #ffffff;
+    font-size: 25px;
+} */
+
+#text-follow{ 
+    position: absolute;
+    left:675px;
+    top:15px;
+    color: #ffffff;
+    font-size: 16px;
+}
+#myfoorter{
+    position: relative;
+
+    width: 100%;
+    height: 80px;
+    background-color: #434f41;
+    margin: 0px;
+    
+} 
+/* #text-contact{ 
+    position: absolute;
+    left:950px;
+    top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+
+    
+} */
+/* #contact-detail{
+    position: absolute;
+    left:900px;
+    top:35px;
+    color: #ffffff;
+    font-size: 12px;
+}
+#Line_2{
+    position: absolute;
+    left:800px;
+    top:15px;
+    border-left: 4px solid rgb(255, 255, 255);
+    height: 50px;
+    border-radius: 10px;
+} */
+#logo_1{
+    position: absolute;
+    top:45px;
+    left: 730px;
+    width: 40px;
+}
+#ig{
+    position: relative;
+    top:45px;
+    left: 670px;
+    width: 40px;
+}
+
+/* #pop{
+    position: relative;
+   
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    left: 20%;
+    
+} */
+.container{
+    min-height: 602px;
+}

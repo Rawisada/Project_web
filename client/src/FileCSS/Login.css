@@ -1,0 +1,627 @@
+body{
+    font-family: poppins;
+    background-image: url(https://i.pinimg.com/564x/49/0b/ab/490babf077685c199f278cdd9c7c4d35.jpg);
+    background-size: cover;  
+    margin: 0;  
+    
+}
+/* .login{
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(91, 119, 91, 0.87);
+    padding: 0px;
+    
+} */
+label{
+    color: rgb(13, 19, 12);
+    margin: 10px 0;
+
+}
+/* .form-input{
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+    
+} */
+/* .form-input::placeholder{
+    color: rgb(255, 255, 255);
+} */
+
+
+.logo{
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+/* #wordlogin{
+    font-size: 60px;
+    text-align: center;
+    top:15%;
+    left: 30%;
+} */
+.btn-primary{
+    width: 100%;
+    border-radius: 20px;
+    background-color:  rgb(30, 51, 26);
+    border: 0px;
+}
+.btn-primary:hover{
+    width: 100%;
+    border-radius: 20px;
+    background-color:  rgb(255, 255, 255);
+    color: rgb(30, 60, 38);
+    border: 0px;
+}
+.wordlogin2{
+    margin-top: 15px;
+    color: #2e3f2e;
+    text-align: center;
+    font-size: 20px;
+}
+.wordlogin3{
+    text-decoration: none;
+    color:  #2e3f2e;
+}
+.wordlogin3:hover{
+    text-decoration: none;
+    color:  #ffffff;
+}
+.background{
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 30px;
+
+}
+#changeImgProfile{
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 30%;
+
+}
+
+
+@media(min-width:300px){
+   .login{
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(91, 119, 91, 0.87);
+    padding: 0px;
+    }
+    #wordlogin{
+        font-size: 30px;
+        text-align: center;
+        top:15%;
+        left: 30%;
+    }
+    .col-3{
+        font-size: 14px;
+    }
+    .form-input{
+        width: 100%;
+        height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1.5px solid rgb(22, 36, 26);
+        border-radius: 20px;
+        background-color: rgba(240, 248, 255, 0);
+        color: rgb(21, 37, 25);
+        
+    }
+    .wordlogin2{
+        margin-top: 15px;
+        color: #2e3f2e;
+        text-align: center;
+        font-size: 12px;
+    }
+    .wordlogin3{
+        text-decoration: none;
+        color:  #2e3f2e;
+    }
+    .form-input::placeholder{
+        color: rgb(21, 34, 21);
+        font-size: 14px;
+    }
+    .row{
+    
+        width: 70%;
+        height: 380px;
+        margin: 10px;
+        margin-left: 60px;
+        background-color: rgb(113, 135, 116);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+        
+    }
+    .row:hover{
+        
+        width: 70%;
+        height: 380px;
+        margin: 10px;
+        margin-left: 60px;
+        background-color: rgb(85, 103, 89);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+        
+    }.form-search{
+        width: 28%;
+        height: 35px;
+        margin-left: 7%;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1.5px solid rgb(181, 201, 183);
+        border-radius: 15px;
+        background-color: rgb(181, 201, 183);
+        color: rgb(50, 62, 53);
+    }
+    .selectTypes-single{
+        width: 17%;
+        height: 35px;
+        border: 1.5px solid white;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 20px;
+        background-color: rgb(181, 201, 183);
+        color: rgb(60, 84, 70);
+    }
+    .functionSearch{
+        width:17%;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(80, 95, 81);
+        color: rgb(255, 255, 255);
+        border: white;
+    }
+    .functionSearch:hover{
+        width:17%;
+        height: 34px;
+        border-radius: 20px;
+        background-color: rgb(124, 150, 129);
+        color: rgb(255, 255, 255);
+        border: white;
+    }.functionFilter{
+        width:9%;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(80, 95, 81);
+        color: rgb(255, 255, 255);
+        border: rgba(255, 255, 255, 0);
+        font-size: large;
+    }
+    .form-contact{
+        margin-left: 5%;
+        width: 90%;
+        height: 300px;
+        border-radius: 20px ;
+        border: #ffffff00;
+        background-color: #647a61;
+        color: #ffffff;
+        padding: 10px;
+        text-align: left;
+    
+        
+    }.btn-contact{
+        margin-left: 5%;
+        width: 90%;
+        background-color: #434f41;
+        color: #ffffff;
+        height: 35px;
+        border-radius: 20px;
+        border: #ffffff00;
+    }
+    .btn-contact:hover{
+        margin-left: 5%;
+        width: 90%;
+        background-color: #889e83;
+        color: #ffffff;
+        height: 35px;
+        border-radius: 20px;
+        border: #ffffff00;
+    }
+    #contact{
+        padding-top: 5%;
+        margin-left: 5%;
+    }
+    .label-contact{
+        margin-left: 5%;
+        text-align: right;
+        color: #2f382d;
+    }
+
+}
+@media(min-width:600px){
+    .login{
+        position: absolute;
+        left: 50%;
+        width: 40%;
+        height: 100%;
+        background-color: rgba(91, 119, 91, 0.87);
+        padding: 0px;
+        
+    }
+    #wordlogin{
+        font-size: 40px;
+        text-align: center;
+        top:15%;
+        left: 30%;
+    }
+    .wordlogin2{
+        margin-top: 15px;
+        color: #2e3f2e;
+        text-align: center;
+        font-size: 16px;
+    }
+    .wordlogin3{
+        text-decoration: none;
+        color:  #2e3f2e;
+    }
+    .form-input{
+        width: 100%;
+        height: 36px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1.5px solid rgb(22, 36, 26);
+        border-radius: 20px;
+        background-color: rgba(240, 248, 255, 0);
+        color: rgb(21, 37, 25);
+    }
+    .form-input::placeholder{
+        color: rgb(21, 34, 21);
+        font-size: 14px;
+    }
+    .col-3{
+        font-size: 20px;
+    }
+    .row{
+        width: 45%;
+        height: 350px;
+        margin: 10px;
+        margin-left: 15px;
+        background-color: rgb(113, 135, 116);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+        
+    }
+    .row:hover{
+        
+        width:  45%;
+        height: 350px;
+        margin: 10px;
+        margin-left: 15px;
+        background-color: rgb(85, 103, 89);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+        
+    }
+    .form-search{
+        width: 40%;
+        height: 35px;
+        margin-left: 7%;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1.5px solid rgb(181, 201, 183);
+        border-radius: 15px;
+        background-color: rgb(181, 201, 183);
+        color: rgb(50, 62, 53);
+    }.functionSearch{
+        width:16%;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(80, 95, 81);
+        color: rgb(255, 255, 255);
+        border: white;
+    }
+    .functionSearch:hover{
+        width:16%;
+        height: 34px;
+        border-radius: 20px;
+        background-color: rgb(124, 150, 129);
+        color: rgb(255, 255, 255);
+        border: white;
+    }.functionFilter{
+        width:7%;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(80, 95, 81);
+        color: rgb(255, 255, 255);
+        border: rgba(255, 255, 255, 0);
+        font-size: large;
+    }
+    .form-contact{
+        margin-left: 5%;
+        width: 95%;
+        height: 300px;
+        border-radius: 20px ;
+        border: #ffffff00;
+        background-color: #647a61;
+        color: #ffffff;
+        padding: 10px;
+        text-align: left;
+    
+        
+    }.btn-contact{
+        margin-left: 5%;
+        width: 95%;
+        background-color: #434f41;
+        color: #ffffff;
+        height: 35px;
+        border-radius: 20px;
+        border: #ffffff00;
+    }
+    .btn-contact:hover{
+        margin-left: 5%;
+        width: 95%;
+        background-color: #889e83;
+        color: #ffffff;
+        height: 35px;
+        border-radius: 20px;
+        border: #ffffff00;
+    }
+    #contact{
+        padding-top: 5%;
+        margin-left: 5%;
+    }
+    .label-contact{
+        margin-left: 5%;
+        text-align: right;
+        color: #2f382d;
+    }
+
+
+}
+@media(min-width:900px){
+    .login{
+        position: absolute;
+        left: 50%;
+        width: 40%;
+        height: 100%;
+        background-color: rgba(91, 119, 91, 0.87);
+        padding: 0px;
+        
+    }
+    #wordlogin{
+        font-size: 60px;
+        text-align: center;
+        top:15%;
+        left: 30%;
+    }
+    .form-input{
+        width: 100%;
+        height: 38px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1.5px solid rgb(22, 36, 26);
+        border-radius: 20px;
+        background-color: rgba(240, 248, 255, 0);
+        color: rgb(21, 37, 25);
+    }
+    .wordlogin2{
+        margin-top: 15px;
+        color: #2e3f2e;
+        text-align: center;
+        font-size: 18px;
+    }
+    .wordlogin3{
+        text-decoration: none;
+        color:  #2e3f2e;
+    }
+    .row{
+    
+        width: 31%;
+        height: 350px;
+        margin: 10px;
+        margin-left: 5px;
+        background-color: rgb(113, 135, 116);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+        
+    }
+    .row:hover{
+        
+        width: 31%;
+        height: 350px;
+        margin: 10px;
+        background-color: rgb(85, 103, 89);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+        
+    }
+    .form-search{
+        width: 43%;
+        height: 35px;
+        margin-left: 5%;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1.5px solid rgb(181, 201, 183);
+        border-radius: 15px;
+        background-color: rgb(181, 201, 183);
+        color: rgb(50, 62, 53);
+    }.functionSearch{
+        width: 17%;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(80, 95, 81);
+        color: rgb(255, 255, 255);
+        border: white;
+    }
+    .functionSearch:hover{
+        width:17%;
+        height: 34px;
+        border-radius: 20px;
+        background-color: rgb(124, 150, 129);
+        color: rgb(255, 255, 255);
+        border: white;
+    }
+    .form-contact{
+        margin-left: 50%;
+        width: 60%;
+        height: 300px;
+        border-radius: 20px ;
+        border: #ffffff00;
+        background-color: #647a61;
+        color: #ffffff;
+        padding: 10px;
+        text-align: left;
+    
+        
+    }
+    .btn-contact{
+        margin-left: 50%;
+        width: 60%;
+        background-color: #434f41;
+        color: #ffffff;
+        height: 35px;
+        border-radius: 20px;
+        border: #ffffff00;
+    }
+    .btn-contact:hover{
+        margin-left: 50%;
+        width: 60%;
+        background-color: #889e83;
+        color: #ffffff;
+        height: 35px;
+        border-radius: 20px;
+        border: #ffffff00;
+    }
+    #contact{
+        padding-top: 5%;
+        margin-left: 50%;
+    }
+    .label-contact{
+        margin-left: 51%;
+        text-align: right;
+        color: #2f382d;
+    }
+
+}
+@media(min-width:1200px){
+    .login{
+        position: absolute;
+        left: 50%;
+        width: 40%;
+        height: 100%;
+        background-color: rgba(91, 119, 91, 0.87);
+        padding: 0px;
+        
+    }
+    #wordlogin{
+        font-size: 60px;
+        text-align: center;
+        top:15%;
+        left: 30%;
+    }
+    .row{
+    
+        width: 23%;
+        height: 350px;
+        margin: 10px;
+        background-color: rgb(113, 135, 116);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+        
+    }
+    .row:hover{
+        
+        width: 23%;
+        height: 350px;
+        margin: 10px;
+        background-color: rgb(85, 103, 89);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+        
+    }
+    .form-search{
+        width: 50%;
+        height: 35px;
+        margin-left: 7%;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1.5px solid rgb(181, 201, 183);
+        border-radius: 15px;
+        background-color: rgb(181, 201, 183);
+        color: rgb(50, 62, 53);
+    }
+    .functionSearch{
+        width:10%;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(80, 95, 81);
+        color: rgb(255, 255, 255);
+        border: white;
+    }
+    .functionSearch:hover{
+        width:10%;
+        height: 34px;
+        border-radius: 20px;
+        background-color: rgb(124, 150, 129);
+        color: rgb(255, 255, 255);
+        border: white;
+    }
+    .functionFilter{
+        width:4%;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(80, 95, 81);
+        color: rgb(255, 255, 255);
+        border: rgba(255, 255, 255, 0);
+        font-size: large;
+    }
+    .form-contact{
+        margin-left: 50%;
+        width: 50%;
+        height: 300px;
+        border-radius: 20px ;
+        border: #ffffff00;
+        background-color: #647a61;
+        color: #ffffff;
+        padding: 10px;
+        text-align: left;
+    
+        
+    }
+    .btn-contact{
+        margin-left: 50%;
+        width: 50%;
+        background-color: #434f41;
+        color: #ffffff;
+        height: 35px;
+        border-radius: 20px;
+        border: #ffffff00;
+    }
+    .btn-contact:hover{
+        margin-left: 50%;
+        width: 50%;
+        background-color: #889e83;
+        color: #ffffff;
+        height: 35px;
+        border-radius: 20px;
+        border: #ffffff00;
+    }
+    #contact{
+        padding-top: 5%;
+        margin-left: 50%;
+    }
+    .label-contact{
+        margin-left: 51%;
+        text-align: right;
+        color: #2f382d;
+    }
+    
+
+}
